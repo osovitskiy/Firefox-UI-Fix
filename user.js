@@ -295,7 +295,7 @@ user_pref("browser.urlbar.clipboard.featureGate", true);
 user_pref("browser.urlbar.suggest.calculator", true);
 
 // Integrated unit convertor at urlbar
-// user_pref("browser.urlbar.unitConversion.enabled", true);
+user_pref("browser.urlbar.unitConversion.enabled", true);
 
 // Draw in Titlebar
 // user_pref("browser.tabs.drawInTitlebar", true);
@@ -371,3 +371,47 @@ user_pref("mousewheel.transaction.timeout",                  1500);            /
 user_pref("toolkit.scrollbox.horizontalScrollDistance",         4);            ///        5
 user_pref("toolkit.scrollbox.verticalScrollDistance",           3);            ///        3
 */
+
+// ** MWGA Customizations ******************************************************
+// Disable anoying notifications
+user_pref("browser.aboutConfig.showWarning", false);
+user_pref("browser.download.alwaysOpenPanel", false)
+user_pref("browser.messaging-system.whatsNewPanel.enabled", false);
+user_pref("browser.tabs.warnOnClose", false);
+user_pref("browser.tabs.warnOnOpen", false);
+
+// Disable serach suggestions
+user_pref("browser.search.suggest.enabled", false);
+
+// Disable Ctrl+Q shortcut
+user_pref("browser.quitShortcut.disabled", true);
+
+// Disable password manager
+user_pref("signon.rememberSignons", false);
+
+// Disable telemetry
+user_pref("datareporting.healthreport.uploadEnabled", false);
+
+// Disable autofill
+user_pref("extensions.formautofill.addresses.enabled", false);
+user_pref("extensions.formautofill.creditCards.enabled", false);
+
+// Default site permissions
+user_pref("permissions.default.camera", 2);
+user_pref("permissions.default.desktop-notification", 2);
+user_pref("permissions.default.geo", 2);
+user_pref("permissions.default.microphone", 2);
+user_pref("permissions.default.xr", 2);
+
+// Cleanup homepage
+user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
+user_pref("browser.newtabpage.activity-stream.showSearch", false);
+user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
+
+// Urlbar customizations
+user_pref("browser.urlbar.maxRichResults", 8);
+user_pref("browser.urlbar.shortcuts.bookmarks", false);
+user_pref("browser.urlbar.shortcuts.history", false);
+user_pref("browser.urlbar.shortcuts.tabs", false);
+user_pref("browser.urlbar.suggest.searches", false);
+user_pref("browser.urlbar.trimURLs", false);
