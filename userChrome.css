@@ -21,3 +21,32 @@
   display: none !important;
 }
 */
+
+/* Urlbar customizations */
+#urlbar[breakout][breakout-extend] {
+  top: 2px !important;
+  left: 1px !important;
+  width: 100% !important;
+  padding: 0px !important;
+}
+#urlbar[breakout][breakout-extend] > #urlbar-input-container {
+  height: var(--urlbar-height) !important;
+  padding: 0 !important;
+}
+#urlbar[breakout][breakout-extend] > #urlbar-background {
+  animation: none !important;
+  box-shadow: none !important;
+}
+#urlbar-results {
+  padding-top: 1px !important;
+  padding-bottom: 5px !important;
+}
+.urlbarView-body-inner {
+  border-top: 0 !important;
+}
+.urlbarView-row[label] {
+  margin-top: 0 !important;
+}
+.urlbarView-row[label]::before {
+  display: none !important;
+}
