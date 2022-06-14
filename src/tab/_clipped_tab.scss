@@ -4,7 +4,7 @@
 }
 
 /** Clipped tabs - Show close button at hover *********************************/
-@include Option("userChrome.tab.close_button_at_hover") {
+@include Option("userChrome.tab.close_button") {
   @import "clipped_tab/show_close_button_at_hover";
 }
 
