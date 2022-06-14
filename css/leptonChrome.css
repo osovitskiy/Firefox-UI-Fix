@@ -8078,7 +8078,7 @@
     z-index: 1;
     /* Bar shape */
     width: 0px;
-    height: 100%;
+    height: 200%;
     /* Bar Color */
     border-right: 1px solid var(--toolbarseparator-color);
   }
