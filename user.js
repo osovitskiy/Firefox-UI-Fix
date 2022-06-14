@@ -415,3 +415,8 @@ user_pref("browser.urlbar.shortcuts.history", false);
 user_pref("browser.urlbar.shortcuts.tabs", false);
 user_pref("browser.urlbar.suggest.searches", false);
 user_pref("browser.urlbar.trimURLs", false);
+
+// Close tab button customizations
+user_pref("userChrome.tab.close_button", true);
+user_pref("userChrome.tab.close_button_at_hover", false);
+user_pref("userChrome.tab.close_button_at_pinned", false);
