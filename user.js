@@ -271,7 +271,7 @@ user_pref("userContent.player.size",           true);
 user_pref("userContent.player.click_to_play",  true);
 user_pref("userContent.player.animate",        true);
 
-user_pref("userContent.newTab.full_icon",      true);
+user_pref("userContent.newTab.full_icon",      false);
 user_pref("userContent.newTab.animate",        true);
 user_pref("userContent.newTab.pocket_to_last", true);
 user_pref("userContent.newTab.searchbar",      true);
