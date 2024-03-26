@@ -383,6 +383,9 @@ user_pref("browser.tabs.warnOnOpen", false);
 // Disable serach suggestions
 user_pref("browser.search.suggest.enabled", false);
 
+// Disable translation popup
+user_pref("browser.translations.automaticallyPopup", false);
+
 // Disable Ctrl+Q shortcut
 user_pref("browser.quitShortcut.disabled", true);
 
