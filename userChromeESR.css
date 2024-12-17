@@ -24,10 +24,8 @@
 
 /* Urlbar customizations */
 #urlbar[breakout][breakout-extend] {
-  top: calc(var(--urlbar-container-height) * 2 - var(--urlbar-height) - 3px) !important;
-  width: var(--urlbar-width) !important;
-  position: relative !important;
-  margin: 0 !important;
+  top: calc((var(--urlbar-container-height) - var(--urlbar-height)) / 2 - 2px) !important;
+  width: 100% !important;
 }
 #urlbar[breakout][breakout-extend] > #urlbar-background {
   animation: none !important;
