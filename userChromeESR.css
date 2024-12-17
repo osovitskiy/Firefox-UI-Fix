@@ -1,0 +1,46 @@
+/** Import Lepton stylesheet (Chrome) *****************************************/
+@import url("css/leptonChrome.css");
+
+
+/** Add your custom styles below **********************************************/
+
+/* Enable option to edit bookmark URLs under Add Bookmark (blue star) menu */
+/*
+.editBMPanel_locationRow {
+  display: initial !important;
+}
+*/
+
+/* Disable Email Image/Audio/Video and Set as Desktop Background context menu items */
+/*
+#context-sendimage,
+#context-sendvideo,
+#context-sendaudio,
+#context-sep-setbackground,
+#context-setDesktopBackground {
+  display: none !important;
+}
+*/
+
+/* Urlbar customizations */
+#urlbar[breakout][breakout-extend] {
+  top: calc((var(--urlbar-container-height) - var(--urlbar-height)) / 2 - 2px) !important;
+  width: 100% !important;
+}
+#urlbar[breakout][breakout-extend] > #urlbar-background {
+  animation: none !important;
+  box-shadow: none !important;
+}
+#urlbar-results {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+.urlbarView-body-inner {
+  border-top: 0 !important;
+}
+.urlbarView-row[label] {
+  margin-top: 0 !important;
+}
+.urlbarView-row[label]::before {
+  display: none !important;
+}
