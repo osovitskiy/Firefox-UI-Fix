@@ -423,3 +423,7 @@ user_pref("browser.urlbar.trimURLs", false);
 user_pref("userChrome.tab.close_button", true);
 user_pref("userChrome.tab.close_button_at_hover", false);
 user_pref("userChrome.tab.close_button_at_pinned", false);
+
+// Force GDI font rendering on Windows
+user_pref("gfx.font_rendering.cleartype_params.force_gdi_classic_for_families", "Arial,Consolas,Courier New,Microsoft Sans Serif,Segoe UI,Tahoma,Trebuchet MS,Verdana");
+user_pref("gfx.font_rendering.cleartype_params.force_gdi_classic_max_size", 15);
