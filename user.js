@@ -410,6 +410,7 @@ user_pref("permissions.default.xr", 2);
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
 user_pref("browser.newtabpage.activity-stream.showSearch", false);
 user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
+user_pref("browser.newtabpage.activity-stream.newtabShortcuts.refresh", false)
 
 // Urlbar customizations
 user_pref("browser.urlbar.maxRichResults", 8);
