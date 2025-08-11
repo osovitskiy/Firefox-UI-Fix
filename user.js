@@ -380,6 +380,9 @@ user_pref("browser.messaging-system.whatsNewPanel.enabled", false);
 user_pref("browser.tabs.warnOnClose", false);
 user_pref("browser.tabs.warnOnOpen", false);
 
+// Disable tab grouping
+user_pref("browser.tabs.groups.enabled", false)
+
 // Disable serach suggestions
 user_pref("browser.search.suggest.enabled", false);
 
