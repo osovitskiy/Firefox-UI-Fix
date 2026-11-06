@@ -373,6 +373,9 @@ user_pref("toolkit.scrollbox.verticalScrollDistance",           3);            /
 */
 
 // ** MWGA Customizations ******************************************************
+// Disable Nova UI
+user_pref("browser.nova.enabled", false);
+
 // Disable anoying notifications
 user_pref("browser.aboutConfig.showWarning", false);
 user_pref("browser.download.alwaysOpenPanel", false)
