@@ -412,6 +412,9 @@ user_pref("permissions.default.geo", 2);
 user_pref("permissions.default.microphone", 2);
 user_pref("permissions.default.xr", 2);
 
+// Default history retention
+user_pref("places.history.expiration.max_pages", 1000000);
+
 // Cleanup homepage
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
 user_pref("browser.newtabpage.activity-stream.showSearch", false);
